@@ -5,7 +5,7 @@ import './Square.css';
 
 // We'll need to define type of props for the Squares on the board
 
-enum SquareXO{ //This helps to define the values of X and O for the Square
+export enum SquareXO{ //This helps to define the values of X and O for the Square
     X = 'X',
     O = 'O'
 }
