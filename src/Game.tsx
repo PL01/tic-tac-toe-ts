@@ -155,7 +155,7 @@ const Game: React.FunctionComponent = () => {
                     {history.map((step, move) => (
                         <li key={move}>
                         <button onClick={() => jumpTo(move)}>
-                            {move === 0 ? 'Go to game start' : `Go to move #${move}`}
+                            {move === 0 ? 'Start of Game' : `Jump to move #${move}`}
                         </button>
                         </li>
                     ))}

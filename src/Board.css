@@ -7,6 +7,10 @@
     align-items: center;
 }
 
+.board-container{
+    padding: 10px 10px 0px 10px;
+}
+
 /* Styling for each row in the game board */
 .board-row:after {
     clear: both;
@@ -18,7 +22,7 @@
 .status {
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin: 20px 0px 10px 0;
 }
 
 /* Styling for the game over message and winner information */
@@ -34,3 +38,14 @@
     cursor: pointer;
 }
   
+.info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}

@@ -1,5 +1,6 @@
 // Board.tsx
 
+import './Board.css';
 import React from 'react';
 import Square, { SquareXO } from './Square';
 
@@ -53,34 +54,33 @@ const Board: React.FunctionComponent<BoardProps> =({
         <div>
             {/* Display the game status */}
             <div className='status'>{status}</div>
-
-            {/* Render the board */}
-            <div className='board-row'>
-                {renderSquare(0)}
-                {renderSquare(1)}
-                {renderSquare(2)}
+            <div className='board-container'>
+                {/* Render the board */}
+                <div className='board-row'>
+                    {renderSquare(0)}
+                    {renderSquare(1)}
+                    {renderSquare(2)}
+                </div>
+                <div className='board-row'>
+                    {renderSquare(3)}
+                    {renderSquare(4)}
+                    {renderSquare(5)}
+                </div>
+                <div className='board-row'>
+                    {renderSquare(6)}
+                    {renderSquare(7)}
+                    {renderSquare(8)}
+                </div>
             </div>
-            <div className='board-row'>
-                {renderSquare(3)}
-                {renderSquare(4)}
-                {renderSquare(5)}
-            </div>
-            <div className='board-row'>
-                {renderSquare(6)}
-                {renderSquare(7)}
-                {renderSquare(8)}
-            </div>
-            
             {/* Display game over if the game ends */}
-            <div>
+            <div className='info-container'>
                 {/* Checks if the game is over is true. If true, it will render below. */}
                 {isGameOver && (
-                    <div>
+                    <div className='message'>
                         <p>Game Over!</p>
-                        <p>Winner: {winner || 'Draw'}</p>
 
                         {/* Button to reset game */}
-                        <button onClick={resetGame}>Wish to Play Again?</button>
+                        <button onClick={resetGame}>Restart Game!</button>
                     </div>
                 )}
             </div>
