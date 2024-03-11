@@ -1,7 +1,7 @@
 // Square.tsx
 
-import React from 'react';
 import './Square.css';
+import React from 'react';
 
 // We'll need to define type of props for the Squares on the board
 
