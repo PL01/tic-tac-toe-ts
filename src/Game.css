@@ -1,0 +1,65 @@
+/* Game.css */
+
+/* Styling for the entire game */
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling for the game info/history section */
+.game-info {
+    margin-left: 20px;
+}
+
+/* Styling for the history moves list */
+.game-info ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styling for the history moves */
+.game-info li {
+    margin-bottom: 5px;
+}
+
+/* Styling for the history move buttons */
+.game-info button {
+    background: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+/* Styling for the current move button */
+.game-info button.current-move {
+    background: #28a745;
+}
+
+/* Styling for the game board container */
+.game-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styling for the "Go to game start" button */
+.game-info button.go-to-start {
+    background: #dc3545;
+    margin-top: 10px;
+}
+
+/* Styling for the "Play Again" button */
+.game-over .play-again-button {
+    background: #28a745;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
