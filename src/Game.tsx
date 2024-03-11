@@ -6,7 +6,8 @@ import { SquareXO } from './Square';
 import './Game.css';
 
 const Game: React.FunctionComponent = () => {
-
+    const [startSymbol, setStartSymbol] = useState<SquareXO | string >('X');
+    
     //State to keep track of gameplay
     const [history, setHistory] = useState([{ squares: Array(9).fill(null) }]);
     /**
@@ -28,6 +29,13 @@ const Game: React.FunctionComponent = () => {
      * setXIsNext is the function to update xIsNext's state between true (X) and false (O)
      */
 
+    // Define the resetGame function
+    const resetGame = () => {
+        setHistory([{ squares: Array(9).fill(null) }]);
+        setStepNumber(0);
+        setXIsNext(startSymbol === 'X');
+    };
+
     // Function to handle a square click
     const handleClick = (index: number): void => {
         // Get the current history up to the current step
@@ -48,6 +56,11 @@ const Game: React.FunctionComponent = () => {
         setStepNumber(newHistory.length);
         setXIsNext(!xIsNext);
     };
+
+    const handleStartSymbolChange = (symbol: string): void => {
+        setStartSymbol(symbol as SquareXO);
+        resetGame();
+      };
 
     // Function to jump to a specific move
     const jumpTo = (step: number): void => { // declare step as a number type
@@ -136,20 +149,22 @@ const Game: React.FunctionComponent = () => {
                 {/* Render the game board */}
                 <Board 
                     squares={current.squares}
-                    xIsNext={xIsNext}
+                    xIsNext={startSymbol === 'X'}
                     onClickSquare={handleClick}
                     onGameEnd={handleGameEnd}
                     winner={winner}
                     status={status}
                     isGameOver={winner !== null || stepNumber === 9}
-                    resetGame={() => {
-                        setHistory([{ squares: Array(9).fill(null) }]);
-                        setStepNumber(0);
-                        setXIsNext(true);
-                    }}
+                    resetGame={resetGame}
                 />
             </div>
             <div className='game-info'>
+                {/* UI for selecting starting symbol */}
+                <div>
+                    <p>Select starting symbol:</p>
+                    <button className='button-size' onClick={() => handleStartSymbolChange(SquareXO.X)}>X</button>
+                    <button className='button-size' onClick={() => handleStartSymbolChange(SquareXO.O)}>O</button>
+                </div>
                 {/* Display game history */}
                 <ol>
                     {history.map((step, move) => (

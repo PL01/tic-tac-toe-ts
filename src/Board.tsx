@@ -42,7 +42,7 @@ const Board: React.FunctionComponent<BoardProps> =({
     resetGame,
 }) => {
     // Delcare a function to render each square
-    const renderSquare = (index: number): JSX.Element =>{
+    const renderSquare = (index: number): JSX.Element => {
         //renderSquare takes index with a parameter type of number and return a JSX element
         return <Square value={squares[index]} onClick={() => onClickSquare(index)} />;
         // return Square component,  squares[index] represents the current state of the board, with index being a position of the square.
