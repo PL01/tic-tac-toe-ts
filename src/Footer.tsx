@@ -6,13 +6,13 @@ import './Footer.css'
 
 const Footer: React.FunctionComponent = () => {
   return (
-    <footer>
-      <p>Follow me on social media:</p>
+    <footer className='footer-container'>
+      <h4>Follow me on social media:</h4>
       <div className="social-links">
-        <a href="https://github.com/pl01" target="_blank" rel="noopener noreferrer">
+        <a className='icon-cog fa-xl' href="https://github.com/pl01" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} />
         </a>
-        <a href="https://www.linkedin.com/in/pablo-lara/" target="_blank" rel="noopener noreferrer">
+        <a className='icon-cog fa-xl' href="https://www.linkedin.com/in/pablo-lara/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
       </div>
