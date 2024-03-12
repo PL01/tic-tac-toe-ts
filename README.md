@@ -32,19 +32,14 @@ This project makes use of the following software:
     npx create-react-app my-tic-tac-toe
     cd my-tic-tac-toe
 
-### TypeScript: A superset of JavaScript that adds static types to the language. To install TypeScript, use:
+#### TypeScript: A superset of JavaScript that adds static types to the language. To install TypeScript, use:
 
-    ```bash
     npm install --save typescript @types/node @types/react @types/react-dom @types/jest
 
-FontAwesome: Provides a collection of icons and symbols. To install FontAwesome, add the following link to your HTML file:
-
-    ```html
+#### FontAwesome: Provides a collection of icons and symbols. To install FontAwesome, add the following link to your HTML file:
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 And install the FontAwesome React package:
-
-    ```bash
     npm install --save @fortawesome/fontawesome-free```
 
 Social Media
