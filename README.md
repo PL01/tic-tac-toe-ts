@@ -39,8 +39,8 @@ This project makes use of the following software:
 #### FontAwesome: Provides a collection of icons and symbols. To install FontAwesome, add the following link to your HTML file:
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-And install the FontAwesome React package:
-    npm install --save @fortawesome/fontawesome-free```
+#### Install the FontAwesome React package:
+    npm install --save @fortawesome/fontawesome-free
 
 Social Media
 Follow me on social media:
