@@ -80,4 +80,4 @@ To learn more about TypeScript, check out the [TypeScript documentation](https:/
 
 To learn React itself, check out the [React documentation](https://reactjs.org/).
 
-Enjoy playing Tic-Tac-Toe!
+Enjoy playing Tic-Tac-Toe! ⓧ◯
