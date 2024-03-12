@@ -54,8 +54,9 @@ Follow me on social media:
 
 ## Usage: 
 
-To run the app in development mode, use the following command:
-    ```npm start
+- To run the app in development mode, use the following command:
+    ```bash
+    npm start
 
 Open http://localhost:3000 in your browser to play the game. The page will reload if you make edits, and you will see any lint errors in the console.
 
@@ -65,7 +66,7 @@ Tic-Tac-Toe is a two-player game where each player takes turns marking a square 
 
 ## Build for Production
 
-To build the app for production, use the following command:
+- To build the app for production, use the following command:
     ```bash
     npm run build
 
