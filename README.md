@@ -3,7 +3,11 @@
 Welcome to my Tic-Tac-Toe Game app! This project is a simple implementation of the classic Tic-Tac-Toe game using React with TypeScript. 
 The goal is to provide an entertaining and interactive experience for users to play the game with features I made in a few days.
 
-## Getting Started
+## Live Demo
+
+Check out the deployed live version of the Game: [Tic-Tac-Toe](https://pl01.github.io/tic-tac-toe-ts/)
+
+## Development
 
 ### Prerequisites
 
@@ -64,6 +68,7 @@ Tic-Tac-Toe is a two-player game where each player takes turns marking a square 
     npm run build
 
 The production-ready build will be located in the build folder.
+
 
 ## Learn More
 
