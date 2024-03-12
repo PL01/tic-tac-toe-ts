@@ -12,13 +12,13 @@ Before you begin, make sure you have Node.js and npm installed on your machine. 
 ### Installation
 
 1. Clone the repository to your local machine:
-   ``` git clone https://github.com/your-username/tic-tac-toe-app.git
+   ```bash git clone https://github.com/your-username/tic-tac-toe-app.git
 
 2. Navigate to the project directory:
-    ``` cd tic-tac-toe-app
+    ```bash cd tic-tac-toe-app
 
 3. Install dependencies:
-    ``` npm install
+    ```bash npm install
     
 ## Software Used
 This project makes use of the following software:
