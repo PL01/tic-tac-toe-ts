@@ -42,23 +42,24 @@ This project makes use of the following software:
 #### Install the FontAwesome React package:
     npm install --save @fortawesome/fontawesome-free
 
-Social Media
+## Social Media
+
 Follow me on social media:
 
-GitHub
-LinkedIn
-Usage
-To run the app in development mode, use the following command:
+- [GitHub](https://github.com/your-username)
+- [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile/)
 
-bash
-Copy code
-npm start
+## Usage: 
+
+To run the app in development mode, use the following command:
+    ```npm start
+
 Open http://localhost:3000 in your browser to play the game. The page will reload if you make edits, and you will see any lint errors in the console.
 
-Rules to Play
+## Rules to Play
 Tic-Tac-Toe is a two-player game where each player takes turns marking a square on a 3x3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
 
-Build for Production
+### Build for Production
 To build the app for production, use the following command:
 
 bash
