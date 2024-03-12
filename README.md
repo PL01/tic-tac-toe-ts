@@ -57,26 +57,22 @@ To run the app in development mode, use the following command:
 Open http://localhost:3000 in your browser to play the game. The page will reload if you make edits, and you will see any lint errors in the console.
 
 ## Rules to Play
-Tic-Tac-Toe is a two-player game where each player takes turns marking a square on a 3x3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
 
-### Build for Production
+Tic-Tac-Toe is a two-player game where each player takes turns marking a square on a 3x3 grid with either the X or O symbol. You can choose to start each game with either symbol. The player who succeeds in placing three of their symbols in a horizontal, vertical, or diagonal row wins the game. Easy, right? Play to find out!
+
+## Build for Production
+
 To build the app for production, use the following command:
+    npm run build
 
-bash
-Copy code
-npm run build
 The production-ready build will be located in the build folder.
 
-Learn More
-Explore the Create React App documentation to dive deeper into React development.
+## Learn More
 
-To learn more about TypeScript, check out the TypeScript documentation.
+Explore the [Create React App documentation](https://create-react-app.dev/docs/getting-started/) to dive deeper into React development.
 
-To learn React itself, check out the React documentation.
+To learn more about TypeScript, check out the [TypeScript documentation](https://www.typescriptlang.org/docs/).
 
-Enjoy playing Tic-Tac-Toe! If you encounter any issues or have suggestions, feel free to contribute to the project on GitHub.
+To learn React itself, check out the [React documentation](https://reactjs.org/).
 
-css
-Copy code
-
-Feel free to modify the content according to your preferences!
+Enjoy playing Tic-Tac-Toe! If you encounter any issues or have suggestions, feel free to contribute to the project on [GitHub](https://github.com/your-username/tic-tac-toe-app).
