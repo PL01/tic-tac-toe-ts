@@ -66,6 +66,7 @@ Tic-Tac-Toe is a two-player game where each player takes turns marking a square 
 ## Build for Production
 
 To build the app for production, use the following command:
+    ```bash
     npm run build
 
 The production-ready build will be located in the build folder.
