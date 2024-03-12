@@ -30,9 +30,9 @@ This project makes use of the following software:
 
 React: A JavaScript library for building user interfaces. To install React in your project, use:
 
-    ```
-    npx create-react-app my-tic-tac-toe
-    cd my-tic-tac-toe
+```
+npx create-react-app my-tic-tac-toe
+cd my-tic-tac-toe
 
 TypeScript: A superset of JavaScript that adds static types to the language. To install TypeScript, use:
 
