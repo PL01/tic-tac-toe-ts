@@ -13,18 +13,15 @@ Before you begin, make sure you have Node.js and npm installed on your machine. 
 
 1. Clone the repository to your local machine:
 
-   ```bash
-   git clone https://github.com/your-username/tic-tac-toe-app.git```
+   git clone https://github.com/your-username/tic-tac-toe-app.git
 
 2. Navigate to the project directory:
 
-    ```bash
     cd tic-tac-toe-app
+
 3. Install dependencies:
-
-    ```bash
     npm install
-
+    
 ## Software Used
 This project makes use of the following software:
 
@@ -75,4 +72,4 @@ To learn more about TypeScript, check out the [TypeScript documentation](https:/
 
 To learn React itself, check out the [React documentation](https://reactjs.org/).
 
-Enjoy playing Tic-Tac-Toe! If you encounter any issues or have suggestions, feel free to contribute to the project on [GitHub](https://github.com/your-username/tic-tac-toe-app).
+Enjoy playing Tic-Tac-Toe!
