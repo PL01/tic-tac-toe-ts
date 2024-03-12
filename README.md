@@ -28,26 +28,26 @@ Before you begin, make sure you have Node.js and npm installed on your machine. 
 ## Software Used
 This project makes use of the following software:
 
-- React: A JavaScript library for building user interfaces. To install React in your project, use:
+React: A JavaScript library for building user interfaces. To install React in your project, use:
 
-    ```
     npx create-react-app my-tic-tac-toe
     cd my-tic-tac-toe
 
 TypeScript: A superset of JavaScript that adds static types to the language. To install TypeScript, use:
 
-    ```
+    ```bash
     npm install --save typescript @types/node @types/react @types/react-dom @types/jest
 
 FontAwesome: Provides a collection of icons and symbols. To install FontAwesome, add the following link to your HTML file:
 
-    ```
+    ```html
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 And install the FontAwesome React package:
 
-    ```
+    ```bash
     npm install --save @fortawesome/fontawesome-free
+
 Social Media
 Follow me on social media:
 
