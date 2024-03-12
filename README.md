@@ -1,7 +1,7 @@
-# Tic-Tac-Toe App
+# Tic-Tac-Toe
 
-Welcome to the Tic-Tac-Toe App! This project is a simple implementation of the classic Tic-Tac-Toe game using React with TypeScript. 
-The goal is to provide an entertaining and interactive experience for users to play this timeless game.
+Welcome to my Tic-Tac-Toe Game app! This project is a simple implementation of the classic Tic-Tac-Toe game using React with TypeScript. 
+The goal is to provide an entertaining and interactive experience for users to play the game with features I made in a few days.
 
 ## Getting Started
 
@@ -45,13 +45,6 @@ This project makes use of the following software:
     ```bash
     npm install --save @fortawesome/fontawesome-free
 
-## Social Media
-
-Follow me on social media:
-
-- [GitHub](https://github.com/your-username)
-- [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile/)
-
 ## Usage: 
 
 - To run the app in development mode, use the following command:
@@ -81,3 +74,10 @@ To learn more about TypeScript, check out the [TypeScript documentation](https:/
 To learn React itself, check out the [React documentation](https://reactjs.org/).
 
 Enjoy playing Tic-Tac-Toe! ⓧ◯
+
+## Social Media
+
+Follow me on social media:
+
+- [GitHub](https://github.com/pl01)
+- [LinkedIn](https://www.linkedin.com/in/pablo-lara/)
